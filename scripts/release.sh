@@ -63,7 +63,7 @@ fi
 
 # check if the specified from branch already exists if it does check it out otherwise create it
 
-git checkout ${baseBranch} ${REMOTE}/${baseBranch}
+git checkout -B ${baseBranch} ${REMOTE}/${baseBranch}
 if [[ $? > 0 ]]
 then
 echo "branch ${baseBranch} does not exist or you have local changes. Please create it and push it to ${REMOTE} before running the release"
