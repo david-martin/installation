@@ -1,5 +1,5 @@
 ---
-integreatly_version: release-9.9.1-rc1-test
+integreatly_version: release-9.9.1-rc2-blah
 # threescale version is controlled by the operator. Changing the operator version will change the 3scale version
 
 # controls whether threescale is installed or not.
