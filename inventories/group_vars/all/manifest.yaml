@@ -1,5 +1,5 @@
 ---
-integreatly_version: master
+integreatly_version: release-9.7.1-rc1-test
 # threescale version is controlled by the operator. Changing the operator version will change the 3scale version
 
 # controls whether threescale is installed or not.
